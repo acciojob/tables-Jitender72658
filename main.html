@@ -10,9 +10,10 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-	<table class="table" border="1px" >
+	<div class="table-responsive">
+	<table class="table table-dark table-hover" border="1px" >
 		 <caption>List of all transctions</caption>
-		<thead>
+		<thead class="table-dark">
 			<tr>
 				<th>#</th>
 				<th>From</th>
@@ -21,7 +22,7 @@
 			</tr>
 		</thead>
 
-		<tbody></tbody>
+		<tbody>
 		<tr>
 			<td>1</td>
 			<td>Mark</td>
@@ -40,17 +41,21 @@
 			<td>3</td>
 			<td>Jack</td>
 			<td>John</td>
-			<td>2000</td>
+			<td>2000</td>	
 		</tr>
-
-		<tr>
+		</tbody>
+		
+		<tfoot>
+	    <tr>
+	      <td></td>
 			<td></td>
 			<td></td>
-			<td></td>
-			<td>Total 4000</td>
-		</tr>
+			<td id="total">Total 4000</td>
+	    </tr>
+	  </tfoot>
 		
 	</table>
+	</div>
 
 </body>
 
